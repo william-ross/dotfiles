@@ -1,0 +1,5 @@
+#!/bin/bash
+
+{{ range .vscode.extensions -}}
+code --install-extension {{ . | quote }}
+{{ end -}}
