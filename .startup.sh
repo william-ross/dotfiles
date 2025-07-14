@@ -1,7 +1,7 @@
 #!/bin/bash
 
 if [ "$(uname)" == "Darwin"]; then
-    if which -s brew then
+    if which -s brew; then
         echo 'Homebrew is already installed'
     else
         /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
