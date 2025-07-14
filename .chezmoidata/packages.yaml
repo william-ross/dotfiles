@@ -19,7 +19,7 @@ packages:
       - "tmux"
       - "starship"
     casks:
-      - "code"
+      - "visual-studio-code"
       - "spotify"
       - "1password"
   linux:
