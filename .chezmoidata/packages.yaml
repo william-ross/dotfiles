@@ -1,0 +1,26 @@
+packages:
+  darwin:
+    tap:
+      - "1password/tap"
+    brews:
+      - "git"
+      - "btop"
+      - "neovim"
+      - "curl"
+      - "node"
+      - "npm"
+      - "wget"
+      - "unzip"
+      - "lua"
+      - "zsh"
+      - "tmux"
+      - "make"
+      - "python"
+      - "tmux"
+      - "starship"
+    casks:
+      - "code"
+  linux:
+    snap:
+      - "code"
+      - "spotify"
