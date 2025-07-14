@@ -26,3 +26,6 @@ packages:
     snap:
       - "code"
       - "spotify"
+    classic:
+      - "ghostty"
+      - "alacritty"

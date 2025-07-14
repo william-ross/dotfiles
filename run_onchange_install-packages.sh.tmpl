@@ -16,4 +16,7 @@ EOF
 {{ range .packages.linux.snap -}}
 snap install {{ . | quote }}
 {{ end -}}
+{{ range .packages.linux.classic -}}
+snap install {{ . | quote }} --classic
+{{ end -}}
 {{ end -}}
