@@ -1,4 +1,7 @@
 packages:
+  universal:
+    brews:
+      - "antidote"
   darwin:
     tap:
       - "1password/tap"
@@ -19,7 +22,6 @@ packages:
       - "python"
       - "tmux"
       - "starship"
-      - "antidote"
     casks:
       - "visual-studio-code"
       - "spotify"

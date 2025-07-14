@@ -1,14 +1,12 @@
 #!/bin/bash
 
 echo 'Starting setup'
-
+if which brew; then
+    echo 'Homebrew is already installed'
+else
+    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+fi
 if [ "$(uname)" == "Darwin" ]; then
-    if which brew; then
-        echo 'Homebrew is already installed'
-    else
-        /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-    fi
-
     brew install chezmoi
 elif [ "$(expr substr $(uname -s) 1 5)" == "Linux" ]; then
     sudo snap install chezmoi --classic
