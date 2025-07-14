@@ -4,6 +4,7 @@ packages:
       - "antidote"
       - "node"
       - "npm"
+      - "rust"
   darwin:
     tap:
       - "1password/tap"
