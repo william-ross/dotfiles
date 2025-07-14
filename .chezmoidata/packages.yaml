@@ -2,6 +2,8 @@ packages:
   universal:
     brews:
       - "antidote"
+      - "node"
+      - "npm"
   darwin:
     tap:
       - "1password/tap"
@@ -11,8 +13,6 @@ packages:
       - "btop"
       - "neovim"
       - "curl"
-      - "node"
-      - "npm"
       - "wget"
       - "unzip"
       - "lua"
