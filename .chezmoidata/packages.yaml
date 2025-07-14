@@ -20,6 +20,8 @@ packages:
       - "starship"
     casks:
       - "code"
+      - "spotify"
+      - "1password"
   linux:
     snap:
       - "code"
