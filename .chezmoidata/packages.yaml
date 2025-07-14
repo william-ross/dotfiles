@@ -19,11 +19,14 @@ packages:
       - "python"
       - "tmux"
       - "starship"
+      - "antidote"
     casks:
       - "visual-studio-code"
       - "spotify"
       - "1password"
       - "ghostty"
+      - "font-fira-code-nerd-font"
+      - "font-jetbrains-mono-nerd-font"
   linux:
     snap:
       - "code"
