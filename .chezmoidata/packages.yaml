@@ -3,6 +3,7 @@ packages:
     tap:
       - "1password/tap"
     brews:
+      - "openssh"
       - "git"
       - "btop"
       - "neovim"
@@ -22,6 +23,7 @@ packages:
       - "visual-studio-code"
       - "spotify"
       - "1password"
+      - "ghostty"
   linux:
     snap:
       - "code"
