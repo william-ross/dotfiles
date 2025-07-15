@@ -5,6 +5,7 @@ packages:
       - "node"
       - "npm"
       - "rust"
+      - "pnpm"
   darwin:
     tap:
       - "1password/tap"
