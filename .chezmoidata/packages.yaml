@@ -34,8 +34,9 @@ packages:
     snap:
       - "code"
       - "spotify"
-      - "obsidian"
     classic:
       - "ghostty"
       - "alacritty"
       - "nvim"
+      - "obsidian"
+
