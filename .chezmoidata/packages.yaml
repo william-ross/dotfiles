@@ -6,7 +6,8 @@ packages:
       - "npm"
       - "rust"
       - "pnpm"
-      - "python3"
+      - "python"
+      - "pipx"
   darwin:
     tap:
       - "1password/tap"
@@ -22,7 +23,6 @@ packages:
       - "zsh"
       - "tmux"
       - "make"
-      - "python"
       - "tmux"
       - "starship"
     casks:
