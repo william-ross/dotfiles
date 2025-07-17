@@ -6,6 +6,7 @@ packages:
       - "npm"
       - "rust"
       - "pnpm"
+      - "python3"
   darwin:
     tap:
       - "1password/tap"
