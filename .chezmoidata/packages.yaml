@@ -8,6 +8,7 @@ packages:
       - "pnpm"
       - "python"
       - "pipx"
+      - "go"
   darwin:
     tap:
       - "1password/tap"
